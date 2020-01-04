@@ -49,7 +49,7 @@ module.exports = postcss.plugin('postcss-px2unit', function (options) {
         }
       }
       if (exclude) {
-        break;
+        continue;
       }
       selectOption = opts
     }
