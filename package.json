@@ -1,0 +1,30 @@
+{
+  "name": "postcss-px2unit",
+  "description": "A CSS post-processor that converts px to rem/em/px.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mahp/postcss-px2unit.git"
+  },
+  "bugs": "https://github.com/mahp/postcss-px2unit/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.11.0"
+  },
+  "keywords": [
+    "css",
+    "rem",
+    "pixel",
+    "px",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "dependencies": {
+    "object-assign": "^4.1.0",
+    "postcss": "^5.2.10"
+  }
+}
